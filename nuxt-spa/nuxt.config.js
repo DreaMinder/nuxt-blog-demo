@@ -13,6 +13,13 @@ module.exports = {
     baseURL: 'https://jsonplaceholder.typicode.com'
   },
   css: [
-    '@assets/style.scss',
-  ]
+    '@assets/style.scss'
+  ],
+  build: {
+    extractCss: true,
+    publicPath: '/nuxt/'
+  },
+  router: {
+    base: '/nuxt-spa-blog-demo'
+  }
 }
