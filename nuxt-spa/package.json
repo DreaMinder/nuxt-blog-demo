@@ -1,0 +1,16 @@
+{
+  "name": "spa-blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "node-sass": "^4.11.0",
+    "nuxt": "^2.3.4",
+    "sass-loader": "^7.1.0"
+  }
+}
